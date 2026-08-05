@@ -1,0 +1,34 @@
+name: MomsGarden CI
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore Packages
+        run: dotnet restore
+
+      - name: Build Application
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Publish Application
+        run: dotnet publish -c Release -o ./publish
+
+      - name: Upload Published Files
+        uses: actions/upload-artifact@v4
+        with:
+          name: MomsGarden-Publish
+          path: ./publish

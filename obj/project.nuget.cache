@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "dgSpecHash": "hALojOsJ8Jc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sonu\\Desktop\\Claysys PR\\MomsGardenSolution\\MomsGarden.Web\\MomsGarden.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sonu\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\10.0.3\\microsoft.aspnetcore.mvc.testing.10.0.3.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\microsoft.aspnetcore.testhost\\10.0.3\\microsoft.aspnetcore.testhost.10.0.3.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.3\\microsoft.entityframeworkcore.10.0.3.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.3\\microsoft.entityframeworkcore.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.3\\microsoft.entityframeworkcore.analyzers.10.0.3.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.3\\microsoft.extensions.dependencymodel.10.0.3.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.4\\swashbuckle.aspnetcore.10.1.4.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.4\\swashbuckle.aspnetcore.swagger.10.1.4.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.4\\swashbuckle.aspnetcore.swaggergen.10.1.4.nupkg.sha512",
+    "C:\\Users\\sonu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.4\\swashbuckle.aspnetcore.swaggerui.10.1.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.OpenApi' 2.4.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\sonu\\Desktop\\Claysys PR\\MomsGardenSolution\\MomsGarden.Web\\MomsGarden.Web.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\sonu\\Desktop\\Claysys PR\\MomsGardenSolution\\MomsGarden.Web\\MomsGarden.Web.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

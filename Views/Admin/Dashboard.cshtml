@@ -1,0 +1,161 @@
+﻿@model List<MomsGarden.Web.Models.Plant>
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+
+    var totalProducts = Model.Count;
+    var totalStock = Model.Sum(p => p.Stock);
+    var outOfStock = Model.Count(p => p.Stock == 0);
+    var totalRevenue = Model.Sum(p => p.Price * p.Stock);
+}
+
+<link rel="stylesheet" href="~/css/dashboard.css" />
+<script src="~/js/dashboard.js"></script>
+
+<div class="dashboard-container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <h2 class="logo">Mom's Garden</h2>
+
+        <ul class="menu">
+            <li class="active">Dashboard</li>
+            <li>Products</li>
+            <li>Orders</li>
+            <li>Customers</li>
+            <li>Reports</li>
+            <li>Settings</li>
+        </ul>
+
+        <form asp-controller="Account" asp-action="Logout" method="post">
+            <button class="logout-btn">Logout</button>
+        </form>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+        <div class="topbar">
+            <h1>Admin Dashboard</h1>
+            <div class="admin-badge">Admin</div>
+        </div>
+
+        <!-- STAT CARDS -->
+        <div class="cards">
+            <div class="card">
+                <h4>Total Revenue</h4>
+                <p>$@totalRevenue</p>
+            </div>
+
+            <div class="card">
+                <h4>Total Products</h4>
+                <p>@totalProducts</p>
+            </div>
+
+            <div class="card">
+                <h4>Total Stock</h4>
+                <p>@totalStock</p>
+            </div>
+
+            <div class="card">
+                <h4>Out of Stock</h4>
+                <p>@outOfStock</p>
+            </div>
+        </div>
+
+        <!-- TABLE -->
+        <div class="table-box">
+            <div class="table-header">
+                <h2>Plant Management</h2>
+                <button class="add-btn" onclick="openAddModal()">+ Add Plant</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Status</th>
+                        <th>Stock</th>  
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var plant in Model)
+                    {
+                        <tr>
+                            <td>
+                                <img src="@plant.ImageUrl" class="product-img" />
+                            </td>
+
+                            <td>@plant.Name</td>
+                            <td>$@plant.Price</td>
+
+                            <td>
+                                @if (plant.Stock > 0)
+                                {
+                                    <span class="badge in">In Stock</span>
+                                }
+                                else
+                                {
+                                    <span class="badge out">Out of Stock</span>
+                                }
+                            </td>
+
+                            <td>@plant.Stock</td>
+
+                            <td>
+                                <button class="edit-btn"
+                                        onclick="openEditModal(@plant.PlantId, '@plant.Name', @plant.Price, @plant.Stock, '@plant.ImageUrl')">
+                                    Edit
+                                </button>
+
+                                <form asp-action="Delete" method="post" style="display:inline;">
+                                    <input type="hidden" name="id" value="@plant.PlantId" />
+                                    <button type="submit" class="delete-btn">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<!-- ADD MODAL -->
+<div id="addModal" class="modal">
+    <div class="modal-content">
+        <h3>Add Plant</h3>
+        <form asp-action="Create" method="post">
+            <input type="text" name="Name" placeholder="Plant Name" required />
+            <input type="number" step="0.01" name="Price" placeholder="Price" required />
+            <input type="number" name="Stock" placeholder="Stock" required />
+            <input type="text" name="ImageUrl" placeholder="images/plant.jpg" required />
+
+            <button type="submit" class="add-btn">Save</button>
+            <button type="button" onclick="closeAddModal()">Cancel</button>
+        </form>
+    </div>
+</div>
+
+<!-- EDIT MODAL -->
+<div id="editModal" class="modal">
+    <div class="modal-content">
+        <h3>Edit Plant</h3>
+        <form asp-action="Edit" method="post">
+            <input type="hidden" id="editId" name="PlantId" />
+
+            <input type="text" id="editName" name="Name" required />
+            <input type="number" step="0.01" id="editPrice" name="Price" required />
+            <input type="number" id="editStock" name="Stock" required />
+            <input type="text" id="editImageUrl" name="ImageUrl" required />
+
+            <button type="submit" class="edit-btn">Update</button>
+            <button type="button" onclick="closeEditModal()">Cancel</button>
+        </form>
+    </div>
+</div>

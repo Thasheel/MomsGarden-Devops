@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Cart | Mom's Garden";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/cart.css" />
+}
+
+<header class="cart-header">
+    <h1>Your Cart 🛒</h1>
+    <a asp-controller="Home" asp-action="Index" class="home-btn">🏠 Home</a>
+</header>
+
+<div class="cart-container">
+
+    <!-- CART ITEMS -->
+    <div class="cart-items" id="cartItems">
+        <!-- Items will be injected by JavaScript -->
+    </div>
+
+    <!-- ORDER SUMMARY -->
+    <div class="cart-summary">
+        <h2>Order Summary</h2>
+        <p>Total Items: <span id="totalItems">0</span></p>
+        <p>Total Amount: ₹<span id="totalPrice">0</span></p>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script src="~/js/cart.js"></script>
+}

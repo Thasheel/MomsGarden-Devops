@@ -1,0 +1,138 @@
+﻿
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    background: linear-gradient(135deg, #f4f7f5, #e8f0ea);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background: url('../images/background.jpg') center/cover no-repeat;
+}
+
+.auth-container {
+    width: 950px;
+    height: 550px;
+    background: #fff;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    overflow: hidden;
+    align-items: stretch;
+}
+
+#login-bg {
+    background: url('../images/luckybamboo.jpg') center/cover no-repeat;
+}
+
+#register-bg {
+    background: url('../images/syngoniumpink.jpg') center/cover no-repeat;
+}
+
+
+
+
+/* Left Side */
+.auth-left {
+    flex: 1;
+    position: relative;
+}
+
+    .auth-left::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.4);
+    }
+
+.auth-left-content {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: white;
+    z-index: 2;
+}
+
+    .auth-left-content h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+/* Right Side */
+.auth-right {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .auth-right h2 {
+        margin-bottom: 30px;
+        font-weight: 600;
+        color: #2e3d2f;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        font-size: 14px;
+        color: #555;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+        .form-group input:focus {
+            border-color: #4CAF50;
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(76,175,80,0.2);
+        }
+
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    background: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .auth-btn:hover {
+        background: #3f9443;
+    }
+
+.auth-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+    .auth-footer a {
+        color: #4CAF50;
+        text-decoration: none;
+        font-weight: 500;
+    }

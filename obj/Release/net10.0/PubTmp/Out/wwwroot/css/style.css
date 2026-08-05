@@ -1,0 +1,395 @@
+:root {
+    --primary-bg-color: green;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    scroll-behavior: smooth;
+ 
+  
+}
+.nav-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+    .nav-btn:hover {
+        color: #4ade80;
+    }
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+    .logo img {
+        width: 55px;
+        border-radius: 50%;
+        height: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .logo h1 {
+        color: white;
+        font-size: 16px;
+    }
+
+.nav-bar ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    margin-right: 10px;
+}
+
+    .nav-bar ul a:hover {
+        /* text-decoration: underline; */
+        color: #2e7d32;
+    }
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.bg-sec {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+    .bg-sec h1 {
+        font-size: 48px;
+        font-family: "Georgia", serif;
+        text-align: center;
+    }
+
+    .bg-sec p {
+        color: gold;
+        font-size: 18px;
+        margin-bottom: 30px;
+        font-weight: 900;
+    }
+
+    .bg-sec button {
+        background-color: #5a7f5a;
+        color: white;
+        border: none;
+        padding: 12px 28px;
+        border-radius: 30px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        .bg-sec button:hover {
+            background-color: gainsboro;
+        }
+
+.stock {
+    /* display: flex; */
+    text-align: center;
+}
+
+.plants img {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.plants {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.stock h1 {
+  
+    font-family: "Georgia", serif;
+    color: rgb(46, 46, 46);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+}
+
+    .stock h1::after {
+        content: "";
+        width: 250px;
+        height: 4px;
+        background: linear-gradient(to right, #6a994e, #b7e4c7);
+        display: block;
+        margin: 15px auto 0;
+        border-radius: 2px;
+    }
+
+.plantitem {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.contact {
+    margin-top:10px;
+    padding: 60px 20px;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+    .contact h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+        color: #222;
+    }
+
+    .contact p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 30px;
+    }
+
+    .contact .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .contact form {
+        width: 100%;
+        max-width: 600px;
+        background: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+        .contact form label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .contact form input,
+        .contact form textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            font-size: 14px;
+        }
+
+        .contact form textarea {
+            height: 120px;
+            resize: none;
+        }
+
+            .contact form input:focus,
+            .contact form textarea:focus {
+                border-color: #2e7d32;
+                box-shadow: 0 0 6px rgba(46, 125, 50, 0.3);
+            }
+
+        .contact form small {
+            font-size: 12px;
+            color: #666;
+            margin-top: -5px;
+        }
+
+        .contact form button {
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #2e7d32;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+            .contact form button:hover {
+                background: #256628;
+            }
+
+.about {
+    padding: 60px 20px;
+    background: #ffffff;
+}
+
+.about-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.about-btn {
+    margin-top: 10px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #2e7d32;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .about-btn:hover {
+        background: #256628;
+    }
+
+.video-box {
+    width: 100%;
+    border-radius: 22px;
+}
+
+    .video-box iframe {
+        width: 100%;
+        height: 320px;
+        border: none;
+    }
+
+.footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 18px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 50px;
+  
+}
+
+    .footer p {     
+       margin:0px;
+    }
+
+.add-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #2e7d32;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .add-btn:hover {
+        background-color: #1b5e20;
+        transform: scale(1.05);
+    }
+
+    .add-btn:disabled {
+        background-color: gray;
+        cursor: not-allowed;
+        opacity: 0.6;
+    }
+        
+
+.cart-link {
+    /* display: flex; */
+    align-items: center;
+    gap: 6px;
+    background-color: #2e7d32;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+    .cart-link a {
+        text-decoration: none;
+    }
+
+    .cart-link:hover {
+        background-color: #1b5e20;
+    }
+
+#cart-count {
+    background-color: white;
+    color: #2e7d32;
+    font-size: 14px;
+    padding: 2px 7px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+
+
+.plant-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.price {
+    color: #2e7d32;
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.stock-status {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.in-stock {
+    color: green;
+    font-weight: bold;
+}
+
+.out-of-stock {
+    color: red;
+    font-weight: bold;
+}

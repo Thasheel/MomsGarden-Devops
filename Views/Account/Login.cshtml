@@ -1,0 +1,55 @@
+﻿@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login - Mom's Garden";
+    Layout = null;
+}
+
+<link rel="stylesheet" href="~/css/auth.css" />
+
+<div class="auth-container">
+
+    <!-- Left Side -->
+    <div class="auth-left" id="login-bg">
+        <div class="auth-left-content">
+            <h2>Welcome Back 🌿</h2>
+            <p>Login and continue growing happiness.</p>
+        </div>
+    </div>
+
+    <!-- Right Side -->
+    <div class="auth-right">
+        <h2>Login</h2>
+
+        <!-- Shows "Invalid credentials" -->
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <form asp-action="Login" method="post">
+
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" placeholder="Enter your email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Enter password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="auth-btn">Login</button>
+
+            <div class="auth-footer">
+                Don’t have an account?
+                <a asp-controller="Account" asp-action="Register">Register</a>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

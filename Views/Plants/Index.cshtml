@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Browse Plants | Mom’s Garden";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/plant.css" />
+}
+
+<header class="browse-header">
+    <a asp-controller="Home" asp-action="Index">
+        <button class="home-btn">🏠 Home</button>
+    </a>
+
+    <h1>Browse Our Plants 🌿</h1>
+    <p>Find the perfect plant for your home</p>
+
+      <div class="filter-panel">
+
+        <h3>Filter Plants</h3>
+
+        <label>Price</label>
+        <select id="priceFilter">
+            <option value="all">All</option>
+            <option value="low">Below ₹300</option>
+            <option value="mid">₹300 - ₹500</option>
+            <option value="high">Above ₹500</option>
+        </select>   
+
+        <label>Stock</label>
+        <select id="stockFilter">
+            <option value="all">All</option>
+            <option value="in">In Stock</option>
+            <option value="out">Out of Stock</option>
+        </select>
+
+        <button id="clearFilter">Clear Filters</button>
+
+    </div>
+
+</div>  
+</header>
+
+
+<div class="search-section">
+    <input type="text" placeholder="Search plants..." class="search-input" />
+</div>
+
+
+<div class="plants-layout">
+
+    <div class="plants" id="plants">
+        @* Plants load from API *@
+    </div>
+
+  
+  
+
+@section Scripts {
+    <script src="~/js/plants.js"></script>
+}

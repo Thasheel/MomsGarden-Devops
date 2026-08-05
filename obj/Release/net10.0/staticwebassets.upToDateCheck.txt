@@ -1,0 +1,171 @@
+wwwroot\css\Auth.css
+wwwroot\css\cart.css
+wwwroot\css\dashboard.css
+wwwroot\css\plant.css
+wwwroot\css\site.css
+wwwroot\css\style.css
+wwwroot\favicon.ico
+wwwroot\images\aloevera.jpg
+wwwroot\images\anthurium.jpg
+wwwroot\images\arecapalm.jpg
+wwwroot\images\background.jpg
+wwwroot\images\bonsai.jpg
+wwwroot\images\fiddleleaffig.jpg
+wwwroot\images\flowerpot.jpg
+wwwroot\images\golden.jpg
+wwwroot\images\Green Pothos.jpg
+wwwroot\images\jadeplant.jpg
+wwwroot\images\lavender.jpg
+wwwroot\images\logo.jpg
+wwwroot\images\luckybamboo.jpg
+wwwroot\images\Monstera Adansonii.jpg
+wwwroot\images\orchid.jpg
+wwwroot\images\pathumani.jpg
+wwwroot\images\peacelilly.jpg
+wwwroot\images\redflower.jpg
+wwwroot\images\rubberplant.jpg
+wwwroot\images\shadeflower.jpg
+wwwroot\images\snakeplant.jpg
+wwwroot\images\spiderplant.jpg
+wwwroot\images\sunflower.jpg
+wwwroot\images\syngoniumpink.jpg
+wwwroot\images\variegatedmonstera.jpg
+wwwroot\images\white.jpg
+wwwroot\images\whiteflower.jpg
+wwwroot\images\zzplant.jpg
+wwwroot\js\api.js
+wwwroot\js\cart.js
+wwwroot\js\dashboard.js
+wwwroot\js\plants.js
+wwwroot\js\script.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\css\Auth.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\css\cart.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\css\dashboard.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\css\plant.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\css\site.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\css\style.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\favicon.ico
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\js\api.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\js\cart.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\js\dashboard.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\js\plants.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\js\script.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\sonu\Desktop\Claysys PR\MomsGardenSolution\MomsGarden.Web\wwwroot\lib\jquery\LICENSE.txt

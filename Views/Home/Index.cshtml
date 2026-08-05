@@ -1,0 +1,177 @@
+﻿@{
+    ViewData["Title"] = "Mom's Garden";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+}
+
+<!-- Header -->
+<header class="head">
+    <div class="logo">
+        <img src="~/images/logo.jpg" alt="Mom's Garden Logo" />
+        <h1>Mom's Garden</h1>
+    </div>
+
+    <nav class="nav-bar" aria-label="Main Navigation">
+        <ul>
+            <li><a href="#bg-sec">Home</a></li>
+            <li><a href="#stock">Plants</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            <li>
+                <a asp-controller="Cart" asp-action="Index" class="cart-link">
+                    🛒 <span id="cart-count">0</span>
+                </a>
+            </li>
+
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                <li>
+                    <form asp-controller="Account"
+                          asp-action="Logout"
+                          method="post"
+                          style="display:inline;">
+                        <button type="submit" class="nav-btn">
+                            Logout
+                        </button>
+                    </form>
+                </li>
+            }
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <!-- Hero -->
+    <section id="bg-sec">
+        <div class="bg-sec">
+            <h1>
+                Bring nature home with <br />
+                Mom's lovingly grown plants.
+            </h1>
+
+            <p>
+                Discover a wide variety of plants to brighten your space.
+            </p>
+
+            <a asp-controller="Plants" asp-action="Index">
+                <button type="button" id="browse">
+                    Browse Plants
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Plant Collection -->
+    <section id="stock" class="stock">
+
+        <h1>Our Plant Collection</h1>
+
+        <div class="plants" id="plantContainer">
+            <!-- Plants loaded dynamically from API -->
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <h2>Get in Touch</h2>
+
+        <p>
+            We'd love to hear from you.
+            Please fill out the form below.
+        </p>
+
+        <div class="info">
+
+            <form asp-controller="Home"
+                  asp-action="Contact"
+                  method="post"
+                  enctype="multipart/form-data">
+
+                <label>Full Name</label>
+                <input type="text"
+                       name="name"
+                       required />
+
+                <label>Email Address</label>
+                <input type="email"
+                       name="email"
+                       required />
+
+                <label>Phone Number</label>
+                <input type="tel"
+                       name="phone" />
+
+                <label>Message</label>
+                <textarea name="message" required></textarea>
+
+                <label>Attach File</label>
+                <input type="file"
+                       name="file" />
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <h2>About Mom's Garden</h2>
+
+                <p>
+                    Mom's Garden is a small home-based plant business
+                    lovingly managed by my mother.
+                </p>
+
+                <p>
+                    We provide indoor plants, outdoor plants,
+                    pots, and expert plant care guidance.
+                </p>
+
+                <button class="about-btn">
+                    Know More
+                </button>
+
+            </div>
+
+            <div class="video-box">
+
+                <iframe src="https://www.youtube.com/embed/_btLlX7UzH8"
+                        title="Mom's Garden"
+                        allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>
+        © 2026 Mom's Garden | All Rights Reserved
+    </p>
+</footer>
+
+@section Scripts
+{
+    <script src="~/js/script.js" asp-append-version="true"></script>
+}
