@@ -23,5 +23,5 @@ jobs:
       - name: Deploy to IIS
         run: |
           Copy-Item -Path ".\publish\*" `
-                    -Destination "C:\inetpub\wwwroot" `
+                    -Destination "C:\inetpub\wwwroot\8-5-26-MomsGarden" `
                     -Recurse -Force
