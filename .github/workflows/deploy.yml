@@ -18,7 +18,12 @@ jobs:
           name: MomsGarden-Publish
           path: ./publish
           run-id: ${{ github.event.workflow_run.id }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ github.token }}
+
+      - name: Check Downloaded Files
+        run: |
+          Write-Host "Downloaded files:"
+          Get-ChildItem ".\publish" -Recurse
 
       - name: Deploy to IIS
         run: |
