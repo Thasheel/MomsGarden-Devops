@@ -19,3 +19,9 @@ jobs:
           path: ./publish
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to IIS
+        run: |
+          Copy-Item -Path ".\publish\*" `
+                    -Destination "C:\inetpub\wwwroot" `
+                    -Recurse -Force
