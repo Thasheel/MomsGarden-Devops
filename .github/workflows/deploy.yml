@@ -21,12 +21,32 @@ jobs:
           github-token: ${{ github.token }}
 
       - name: Check Downloaded Files
+        shell: powershell
         run: |
           Write-Host "Downloaded files:"
           Get-ChildItem ".\publish" -Recurse
 
       - name: Deploy to IIS
+        shell: powershell
         run: |
+          Import-Module WebAdministration
+
+          Write-Host "Stopping MomsGarden IIS site..."
+          Stop-Website -Name "MomsGarden"
+
+          Write-Host "Waiting for IIS to release files..."
+          Start-Sleep -Seconds 5
+
+          Write-Host "Deploying published files..."
           Copy-Item -Path ".\publish\*" `
                     -Destination "C:\inetpub\wwwroot\8-5-26-MomsGarden" `
                     -Recurse -Force
+
+          Write-Host "Starting MomsGarden IIS site..."
+          Start-Website -Name "MomsGarden"
+
+          Write-Host "Checking IIS site status..."
+          Get-Website -Name "MomsGarden" |
+            Select-Object Name, State, PhysicalPath
+
+          Write-Host "Deployment completed successfully."
